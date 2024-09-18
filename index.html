@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color:crimson;
+            text-shadow: 1px 1px ;
+            text-decoration:underline;
+        }
+        
+        
+    .main{
+        background-color: burlywood;
+        height: 94vh;
+        width: 48vw;
+        padding: 20px;
+        margin: auto;
+        box-shadow: 5px 5px 5px burlywood;
+        border-radius: 10px;
+        display: grid;
+        gap: 5px;
+        grid-template-areas: 
+        "area1 area4 area3"
+        "area1 area5 area6"
+        "area2 area5 area7";
+    
+    }
+    .g{
+        
+        width: 200px;
+    }
+    .g1{
+        grid-area: area1;
+        box-shadow: 2px 2px 2px white;
+    }
+    .g2{
+        grid-area: area2;
+        box-shadow: 3px 3px 3px lightblue;
+        height: 250px;
+    }
+    .g3{
+        grid-area: area3;
+        box-shadow: 3px 3px 3px violet;
+        height: 135px;
+    }
+    .g4{
+        grid-area: area4;
+        box-shadow: 2px 2px 2px;
+    }
+    .g5{
+        grid-area: area5;
+        box-shadow: 2px 2px 2px rgba(245, 222, 179, 0.788);
+        height: 404px;
+    }
+    .g6{
+        grid-area: area6;
+        box-shadow: 3px 3px 3px white;
+    }
+    .g7{
+        grid-area: area7;
+        box-shadow: 3px 3px 3px;
+    }
+        
+    </style>
+</head>
+<body>
+    <h2>Grid-template-areas</h2>
+    <div class="main">
+     <img class="g g1"src="../assets/curology.avif">
+     <img class="g g2" src="../assets/stool.avif">  
+     <img class="g g3" src="../assets/pot.jpg">  
+     <img class="g g4" src="../assets/coffee.jpg"> 
+     <img class="g g5" src="../assets/lamp.avif">   
+     <img class="g g6" src="../assets/glasses.jpeg">  
+     <img class="g g7" src="../assets/camrea.jpg">           
+
+    </div>
+</body>
+</html>
